@@ -22,7 +22,7 @@ type Result<T> = std::result::Result<T, Box<dyn Error + Send + Sync>>;
 
 #[rustfmt::skip]
 const STYLE: &str = "{spinner:.green} {item:40} [{elapsed_precise}] [{bar:40.cyan/blue}] {bytes}/{total_bytes}";
-const URL: &str = "https://prod-cn-alicdn-gamestarter.kurogame.com/pcstarter/prod/game/G152/10008_Pa0Q0EMFxukjEqX33pF9Uyvdc8MaGPSz/index.json";
+const URL: &str = "https://prod-cn-alicdn-gamestarter.kurogame.com/pcstarter/prod/game/G152/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/index.json";
 
 #[derive(Parser)]
 #[command(version)]
